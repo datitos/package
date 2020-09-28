@@ -2,6 +2,7 @@ import unittest
 import sys
 # sys.path is a list of absolute path strings
 sys.path.append('../')
+
 from mendotimeseries.first_module import *
 
 class TestSuma(unittest.TestCase):
