@@ -13,6 +13,13 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/datitos/package",
     packages=setuptools.find_packages(),
+    install_requires=[
+        'fbprophet>=0.7',
+        'pandas>=0.23.3',
+        'numpy>=1.14.5',
+        'matplotlib>=2.2.0',
+        'jupyter'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
