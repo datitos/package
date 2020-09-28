@@ -22,10 +22,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+        #TODO: utilizar un gestor de paquetes que installe todo lo necesario
+      - name: Installa Numpy
         run: pip3 install numpy
         
-      - name: Run a one-line script
+        #TODO: agregar todos los tests
+      - name: Ejecuta nuestro unico archivo de test
         run: python3 -m unittest mendotimeseries/tests/test_first_module.py    
         
