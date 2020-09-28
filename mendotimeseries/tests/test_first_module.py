@@ -5,7 +5,6 @@ sys.path.append('../')
 
 from mendotimeseries.first_module import *
 
-
 class TestSuma(unittest.TestCase):
     def test_sum(self):
         self.assertEqual(sum(2,2),5)
