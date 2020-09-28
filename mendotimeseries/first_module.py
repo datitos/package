@@ -4,7 +4,7 @@ def sum(a, b):
     '''
     Returns the sum between "a" and "b"
     '''
-    return a + b
+    return a + b + 7
 
 def matmul(a, b):
     '''
