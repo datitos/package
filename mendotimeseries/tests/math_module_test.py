@@ -2,7 +2,7 @@ import unittest
 import sys
 # sys.path is a list of absolute path strings
 sys.path.append('../')
-from module_sum import *
+from math import *
 
 class TestSuma(unittest.TestCase):
     def test_sum(self):
