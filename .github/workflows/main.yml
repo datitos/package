@@ -24,11 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello
+        run:  python3 -m unittest mendotimeseries/tests/test_first_module.pyecho Hello
 
-      - name: Run a multi-line script
-        run: |
-          cd mendotimeseries,
-          python3 -m unittest tests/test_first_module.py
 
           
