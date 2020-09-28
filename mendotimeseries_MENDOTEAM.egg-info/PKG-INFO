@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mendotimeseries-MENDOTEAM
+Version: 0.0.2
+Summary: A time series prediction package
+Home-page: https://github.com/datitos/package
+Author: Mendo Team
+Author-email: pm@mendoteam.com
+License: UNKNOWN
+Description: # MendoTimeSeries
+        
+        - Predicts all you want
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
