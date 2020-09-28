@@ -1,8 +1,11 @@
 LICENSE
 README.md
 setup.py
+dist/mendotimeseries-MENDOTEAM-0.0.1.tar.gz
+dist/mendotimeseries_MENDOTEAM-0.0.1-py3-none-any.whl
 mendotimeseries/__init__.py
 mendotimeseries/module_sum.py
+mendotimeseries/tests/test_module_sum.py
 mendotimeseries_MENDOTEAM.egg-info/PKG-INFO
 mendotimeseries_MENDOTEAM.egg-info/SOURCES.txt
 mendotimeseries_MENDOTEAM.egg-info/dependency_links.txt

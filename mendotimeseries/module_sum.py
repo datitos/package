@@ -10,4 +10,4 @@ def matmul(a, b):
     '''
     Multiplies two matrix
     '''
-    return np.matmul(a, b)
+    return np.matmul(a, b).tolist()
