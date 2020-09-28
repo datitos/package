@@ -6,7 +6,7 @@ from mendotimeseries.first_module import *
 
 class TestSuma(unittest.TestCase):
     def test_sum(self):
-        self.assertEqual(sum(2,2),5)
+        self.assertEqual(sum(2,2),4)
         self.assertNotEqual(sum(2,2),5)
 
 class TestMatMul(unittest.TestCase):
