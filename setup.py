@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="mendotimeseries-MENDOTEAM",
+    name="mendotimeseries",
     version="0.0.2",
     author="Mendo Team",
     author_email="pm@mendoteam.com",
