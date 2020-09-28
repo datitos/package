@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  python3 -m unittest mendotimeseries/tests/test_first_module.pyecho Hello
+        run:  python3 -m unittest mendotimeseries/tests/test_first_module.py
 
 
           
