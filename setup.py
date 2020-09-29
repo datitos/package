@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mendotimeseries",
-    version="0.0.3",
+    version="0.0.4",
     author="Mendo Team",
     author_email="pm@mendoteam.com",
     description="A time series prediction package",
