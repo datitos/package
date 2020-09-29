@@ -30,9 +30,9 @@ def randomwalk(length):
     return pasos.cumsum()
 
 def maximo(list):
-    ''''
+    '''
     Returns the max value in a list
-    ''''
+    '''
   max_val = float('-inf') # le digo que el valor maximo es - infinito
   for c in list:
     if c > max_val:
