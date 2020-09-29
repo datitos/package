@@ -14,7 +14,6 @@ setuptools.setup(
     url="https://github.com/datitos/package",
     packages=setuptools.find_packages(),
     install_requires=[
-        'fbprophet>=0.6',
         'pandas>=0.23.3',
         'numpy>=1.14.5',
         'matplotlib>=2.2.0',
