@@ -28,13 +28,16 @@ def randomwalk(length):
     '''
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
-def max(list):
-    '''
+
+def maximo(list):
+    ''''
     Returns the max value in a list
-    '''
-    for c in list:
-        maxVal = max(list)
-    return (maxVal)
+    ''''
+  max_val = float('-inf') # le digo que el valor maximo es - infinito
+  for c in list:
+    if c > max_val:
+        max_val = c
+  return max_val
 
 
 
