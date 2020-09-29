@@ -18,8 +18,7 @@ setuptools.setup(
         'pandas>=0.23.3',
         'numpy>=1.14.5',
         'matplotlib>=2.2.0',
-        'scikit-learn>=0.22.1',
-        'tensorflow>=2.3.0'
+        'scikit-learn>=0.22.1'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
