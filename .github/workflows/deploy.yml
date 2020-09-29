@@ -25,6 +25,9 @@ jobs:
       - name: Instala wheel
         run: pip3 install --upgrade wheel
         
+      - name: Instala twine
+        run: pip3 install --upgrade twine
+        
       - name: Instala todos los paquetes
         run: pip3 install .
         
