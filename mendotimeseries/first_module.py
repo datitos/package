@@ -33,11 +33,11 @@ def maximo(list):
     '''
     Returns the max value in a list
     '''
-  max_val = float('-inf') # le digo que el valor maximo es - infinito
-  for c in list:
-    if c > max_val:
-        max_val = c
-  return max_val
+    max_val = float('-inf') 
+    for c in list:
+        if c > max_val:
+             max_val = c
+    return max_val
 
 
 
