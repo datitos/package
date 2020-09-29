@@ -38,6 +38,6 @@ jobs:
         run: python3 setup.py sdist bdist_wheel
       
       - name: Deploy
-        run: python3 -m twine upload -u __token__ -p pypi-AgENdGVzdC5weXBpLm9yZwIkZjRhZjI1ZmYtYmU1Yy00MDg0LTkwOTUtNmMxYmU0OTZiZWVhAAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiDG3R3L6T4ZWbDokixV1o_J-6eA66V5fjYhC_fBCM8U7Q --repository testpypi dist/*
+        run: python3 -m twine upload -u __token__ -p ${{ secrets.API_KEY }} --repository testpypi dist/*
         
       
