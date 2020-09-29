@@ -28,8 +28,6 @@ def randomwalk(length):
     '''
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
-<<<<<<< HEAD
-    
 def max(list):
     '''
     Returns the max value in a list
@@ -38,7 +36,7 @@ def max(list):
         maxVal = max(list)
     return (maxVal)
 
-=======
+
 
 
 def plot_random_walks():
@@ -82,4 +80,4 @@ def plot_random_walks():
     plt.title('Caminata que mas se aleja')
 
     plt.show()
->>>>>>> 007888c7f19e573a333434ce9f5ab2353df5c26c
+
