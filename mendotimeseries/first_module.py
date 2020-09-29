@@ -17,3 +17,6 @@ def substract(a,b):
     Calculates the difference between "a" and "b"
     '''
     return a - b
+
+def hi():
+    return 'Hello'

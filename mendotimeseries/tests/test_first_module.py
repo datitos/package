@@ -2,11 +2,7 @@ import unittest
 import sys
 # sys.path is a list of absolute path strings
 sys.path.append('../')
-<<<<<<< HEAD:mendotimeseries/tests/test_first_module.py
-from first_module import *
-=======
-from math import *
->>>>>>> 812afbcd94b0491ed8ee98d90a8486d45df0080d:mendotimeseries/tests/math_module_test.py
+from mendotimeseries.first_module import *
 
 class TestSuma(unittest.TestCase):
     def test_sum(self):
