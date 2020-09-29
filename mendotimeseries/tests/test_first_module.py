@@ -20,3 +20,8 @@ class TestRW(unittest.TestCase):
     def test_rw(self):
         self.assertEqual(len(randomwalk(10)),10)
         self.assertEqual(isinstance(randomwalk(10), np.ndarray), True)
+
+class TestMax(unittest.TestCase):
+    def test_max(self):
+    	self.assertEqual(max([1,2,5,8,3,4,6]),8)
+    	self.assertEqual(isinstance(max([1,2,5,8,3,4,6]), int),True)

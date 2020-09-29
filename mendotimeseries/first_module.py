@@ -29,6 +29,18 @@ def randomwalk(length):
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
 
+def maximo(list):
+    '''
+    Returns the max value in a list
+    '''
+    max_val = float('-inf') 
+    for c in list:
+        if c > max_val:
+             max_val = c
+    return max_val
+
+
+
 
 def plot_random_walks():
     ''''
@@ -71,3 +83,4 @@ def plot_random_walks():
     plt.title('Caminata que mas se aleja')
 
     plt.show()
+

@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Tests 
+name: Deploy 
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the develop branch
 on:
-  pull_request:
-    branches: [ develop ]
+  push:
+    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,5 +27,12 @@ jobs:
         run: pip3 install .
         
       - name: Ejecuta todos los tests
-        run: python3 -m unittest discover mendotimeseries/tests/   
+        run: python3 -m unittest discover mendotimeseries/tests/
+      
+      - name: Setup
+        run: python3 setup.py sdist bdist_wheel
+      
+      - name: Deploy
+        run: python3 -m twine upload -u __token___ -p pypi- AgENdGVzdC5weXBpLm9yZwIkZjRhZjI1ZmYtYmU1Yy00MDg0LTkwOTUtNmMxYmU0OTZiZWVhAAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiDG3R3L6T4ZWbDokixV1o_J-6eA66V5fjYhC_fBCM8U7Q --repository testpypi dist/*
         
+      
