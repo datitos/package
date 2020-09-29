@@ -27,3 +27,12 @@ def randomwalk(length):
     '''
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
+    
+def max(list):
+    '''
+    Returns the max value in a list
+    '''
+    for c in list:
+        maxVal = max(list)
+    return (maxVal)
+
