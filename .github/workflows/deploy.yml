@@ -22,6 +22,9 @@ jobs:
       - name: Instala setuptools
         run: pip3 install --upgrade setuptools
         
+      - name: Instala wheel
+        run: pip3 install --upgrade wheel
+        
       - name: Instala todos los paquetes
         run: pip3 install .
         
