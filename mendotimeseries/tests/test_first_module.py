@@ -19,4 +19,4 @@ class TestMatMul(unittest.TestCase):
 class TestRW(unittest.TestCase):
     def test_rw(self):
         self.assertEqual(len(randomwalk(10)),10)
-        self.assertEqual(isinstance(randomwalk(10)), np.ndarray)
+        self.assertEqual(isinstance(randomwalk(10), np.ndarray), 'True')
