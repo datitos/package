@@ -1,30 +1,70 @@
+"""
+first_module.py
+====================================
+The core module of this incredible, never seen before package.
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 def sum(a, b):
     '''
     Returns the sum between "a" and "b"
+    
+    Args:
+        a (float) : First number
+        b (float) : Second number
+
+    Returns:
+        sum (float) : a and b sum
     '''
     return a + b
 
 def matmul(a, b):
     '''
-    Multiplies two matrix
+    Returns the matrix multiplication between "a" and "b"
+    
+    Args:
+        a (np.array) : First matrix
+        b (np.array) : Second matrix
+
+    Returns:
+        matmul (np.array) : a and b matmul
     '''
     return np.matmul(a, b).tolist()
 
 def substract(a,b):
     '''
-    Calculates the difference between "a" and "b"
+    Returns the substraction between "a" and "b"
+    
+    Args:
+        a (float) : First number
+        b (float) : Second number
+
+    Returns:
+        sub (float) : a and b substraction
     '''
     return a - b
 
 def hi():
+    '''
+    Returns hello
+
+    Returns:
+        hello (string) : hello
+    '''
     return 'Hello'
 
 def randomwalk(length):
     '''
     Returns a random walk of length = length
+    
+    Args:
+        length (int) : random walk length
+        
+    Returns:
+        rw (np.array) : array with a random walk
     '''
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
@@ -32,6 +72,12 @@ def randomwalk(length):
 def maximo(list):
     '''
     Returns the max value in a list
+    
+    Args:
+        list (list) : list with a max to look for
+        
+    Returns:
+        max (int/float) : max value found in list
     '''
     max_val = float('-inf') 
     for c in list:
@@ -45,6 +91,9 @@ def maximo(list):
 def plot_random_walks():
     ''''
     Simulate 12 random walks, plot them.
+    
+    Returns:
+        plot (plt.figure) : plot
     '''
     N = 100000
     random_walks = []
