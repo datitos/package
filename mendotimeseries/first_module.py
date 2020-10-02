@@ -53,6 +53,8 @@ def hi():
 
     Returns:
         hello (string) : hello
+        
+        
     '''
     return 'Hello'
 
@@ -65,6 +67,8 @@ def randomwalk(length):
         
     Returns:
         rw (np.array) : array with a random walk
+        
+        
     '''
     pasos=np.random.randint (-1,2,length)
     return pasos.cumsum()
@@ -78,6 +82,8 @@ def maximo(list):
         
     Returns:
         max (int/float) : max value found in list
+        
+        
     '''
     max_val = float('-inf') 
     for c in list:
